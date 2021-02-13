@@ -11,7 +11,7 @@ public class PostManager {
         return null;
     }
 
-    public PostData[] search(int ownerID) {
+    public PostData[] search(int ownerID, String domain, String query, boolean ownersOnly, int count, int offset) {
         //TO DO
         return null;
     }
